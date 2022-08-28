@@ -74,21 +74,34 @@ Pearson correlation matrix, which shows the correlation between the variables on
 ![Correlation Heatmap](Correlation%20heatmap.png)
 
 * **Metrics used to evaluate your final model (AUC and AIR)**
-* **AUC Values**
 
-* ** AIR Values**
+**AUC Values**
 
+![AUC Values](Evaluate%20AUC.png)
 
+**AIR Values**
+We want to use AIR to evaluate whether there is data discrimination. In the Bias Testing, we found that the value of hispanic-to-white is 0.76, which is less than 0.8. In this case, there is discrimination towards hispanic. So, we need to do the bias remediation to improve the performance of the model. After the remediation, we will get the final AIR Values (See next question). 
 
+ | Hispanic-to-white AIR |Black-to-white AIR | Asian-to-white AIR |Female-to-male AIR |
+ | --------------------- | ----------------- | ------------------ |-------------------|
+ |         0.76          |        0.82       |        1.00        |       1.06        |
 
+* **State the final values, neatly -- as bullets or a table, of the metrics for all data: training, validation, and test data**
 
-
-
-
+**Final AUC Values**
 
 
 | Tr AUC | Val AUC | Test AUC |
 | ------ | ------- | -------- |
-| 0.3456 | 0.7891  | 0.7687 |
+| 0.7837 | 0.7496  |  0.7438  |
 
+**Final AIR Values**
+
+ | Hispanic-to-white AIR |Black-to-white AIR | Asian-to-white AIR |Female-to-male AIR |
+ | --------------------- | ----------------- | ------------------ |-------------------|
+ |         0.83          |        0.85       |        1.00        |       1.02        |
+
+* **Provide any plots related to your data or final model -- be sure to label the plots!**
+
+![Histograms for each column in the data dictionary] 
 
