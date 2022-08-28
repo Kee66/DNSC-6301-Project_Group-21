@@ -71,10 +71,24 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 * **Correlation Heatmap**
 Pearson correlation matrix, which shows the correlation between the variables on each axis. Correlation ranges from -1 to +1. Values closer to zero means there is no linear trend between two variables; values closer to +1 means stronger positive correlation; values closer to -1 means stronger negative correlation.And the darker color represents stronger correlation between variables, vice versa. 
 
+![Correlation Heatmap](Correlation%20heatmap.png)
+
+* **Metrics used to evaluate your final model (AUC and AIR)**
+* **AUC Values**
+
+* ** AIR Values**
+
+
+
+
+
+
+
+
+
 
 | Tr AUC | Val AUC | Test AUC |
 | ------ | ------- | -------- |
 | 0.3456 | 0.7891  | 0.7687 |
 
-#### Correlation Heatmap
-![Correlation Heatmap](Correlation heat.png)
+
