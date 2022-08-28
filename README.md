@@ -77,4 +77,4 @@ Pearson correlation matrix, which shows the correlation between the variables on
 | 0.3456 | 0.7891  | 0.7687 |
 
 #### Correlation Heatmap
-![Correlation Heatmap](download.png)
+![Correlation Heatmap](Correlation heat.png)
