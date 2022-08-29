@@ -164,7 +164,7 @@ Availbility of test data. We are training the test data today, but we are not su
    
 Security & Privacy. Computers, data, & ML can all be abused to do harm, or be attacked by bad actors. Some hackers may hack into the model and change some personal information to increase his/her eligibility of credit line increase. For example, by using Backdoors exploited with watermarked data, hackers can easily get the results they want. 
 
-**Describe any unexpected or results**
+* **Describe any unexpected or results**
 
 Missing Data: There is no missing data in our training set, but in the real world, it is highly possible that we will encounter missing data. 
 
